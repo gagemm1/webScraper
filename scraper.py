@@ -38,7 +38,7 @@ print(data["transmission"]["automaticType"])
 
 _db = "car_info"
 _user = "postgres"
-_password = "cf9eb0a823"
+_password = "#######"
 _pgconnection = psycopg2.connect("dbname=%s user=%s password=%s"%(_db, _user, _password))
 def execute(sql, params = None):
     cursor = _pgconnection.cursor()
